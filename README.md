@@ -40,31 +40,10 @@ Monitor Arranger automates this:
 You can build this using the .NET SDK command line.
 
 1.  Save the code as `MonitorArranger.cs`.
-2.  Create a `.csproj` file (see below) or use the `csc` compiler if you have the developer command prompt.
-
-### Using .NET SDK (Recommended):
-
-Create a file named `MonitorArranger.csproj` in the same folder:
-
-```xml
-<Project Sdk="Microsoft.NET.Sdk">
-  <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFramework>net6.0-windows</TargetFramework>
-    <UseWindowsForms>true</UseWindowsForms>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>disable</Nullable>
-  </PropertyGroup>
-</Project>
+2.  Run the following command (copy-paste the whole line):
+```powershell
+C:\Users\bko\OneDrive - Netcompany\Desktop\screenRearrange>C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /target:winexe /out:MonitorArranger.exe /reference:System.Windows.Forms.dll /reference:System.Drawing.dll screenArranagement.cs
 ```
-
-Run the build command:
-
-```bash
-dotnet build -c Release
-```
-
-The executable will be located in `bin/Release/net6.0-windows/`.
 
 ## Usage
 

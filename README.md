@@ -20,6 +20,7 @@ Monitor Arranger automates this:
 -   The app rearranges the screens logically from left to right, aligning their tops.
 
 ## Features
+![Photo of it in action](20251125_085805.jpg)
 
 -   **Zero-Config**: Just run the executable. No installation required.
 -   **Auto-Extend**: Automatically switches display topology from "Duplicate" or "Internal Only" to "Extend" upon launch.

@@ -42,7 +42,7 @@ You can build this using the .NET SDK command line.
 1.  Save the code as `MonitorArranger.cs`.
 2.  Run the following command (copy-paste the whole line):
 ```powershell
-C:\Users\bko\OneDrive - Netcompany\Desktop\screenRearrange>C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /target:winexe /out:MonitorArranger.exe /reference:System.Windows.Forms.dll /reference:System.Drawing.dll screenArranagement.cs
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /target:winexe /out:MonitorArranger.exe /reference:System.Windows.Forms.dll /reference:System.Drawing.dll screenArranagement.cs
 ```
 
 ## Usage
